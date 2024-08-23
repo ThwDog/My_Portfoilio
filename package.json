@@ -63,5 +63,6 @@
   ],
   "resolutions": {
   "rollup": "npm:@rollup/wasm-node"
-}
+  },
+  "type": "module"
 }
