@@ -12,6 +12,8 @@ export default defineConfig({
     // loader: "tsx",
     // include: /src\/.*\.[tj]sx?$/,
     exclude: [],
+    target: 'esnext',
+    platform: 'linux',
   },
   build: {
     outDir: "build",

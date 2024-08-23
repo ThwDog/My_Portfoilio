@@ -60,5 +60,8 @@
   "os": [
     "linux",
     "win32"
-  ]
+  ],
+  "resolutions": {
+  "rollup": "npm:@rollup/wasm-node"
+}
 }
