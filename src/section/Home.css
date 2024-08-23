@@ -1,0 +1,13 @@
+section
+{
+    width : 100%;
+    height:  96vh;
+    font: 1.2rem "Fira Sans", sans-serif;
+    font-size: 48px;
+}
+
+.home
+{
+    color: white;
+    background-color: black;
+}
