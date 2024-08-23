@@ -26,5 +26,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: "/My_Portfoilio/",
+  base: "/My_Portfolio/",
 });
