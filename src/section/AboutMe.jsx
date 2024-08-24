@@ -2,6 +2,7 @@ import './AboutMe.css'
 import photo from "../Image/MyPhoto.jpg";
 import React,{useEffect,useState} from 'react';
 
+
 function AboutMe() {
     const [activeTab, setActiveTab] = useState('skill');
 
@@ -10,12 +11,15 @@ function AboutMe() {
     };
 
     return (
+        <>
         <section class="aboutme">
             <div id="about">
                 <div class="container">
                     <div class="row">
+                        {/* Left col */}
                         <div class="about_col_1">
                             <img src={photo}></img>
+                            
                         </div>
                         <div class="about_col_2">
                             <h1 class="sub-title">About me</h1>
@@ -24,6 +28,7 @@ function AboutMe() {
                                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                                 ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                             </p>
+
                             <div class="tab-title">
                                 <p className={`tab-links ${activeTab === 'skill' ? 'active-link' : ''}`}        onClick={() => handleTabClick('skill')}>Skill</p>
                                 <p className={`tab-links ${activeTab === 'experience' ? 'active-link' : ''}`}   onClick={() => handleTabClick('experience')}>Experience</p>
@@ -50,6 +55,7 @@ function AboutMe() {
                 </div>
             </div>
         </section>
+        </>
     );
 }
 

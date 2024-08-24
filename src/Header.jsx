@@ -1,5 +1,6 @@
 import './Header.css';
 import React, { useEffect, useState ,useRef } from 'react';
+import { Box, Tooltip, WrapItem } from '@chakra-ui/react';
 import AboutMe from './section/AboutMe';
 import MyWork from './section/MyWork';
 import Contract from './section/Contract';
@@ -47,15 +48,25 @@ function Header() {
             </div>
           </div>
           <div class="header-bottom-link">
-            <a href="https://github.com/ThwDog" target="_blank">
-              <img src="https://static.vecteezy.com/system/resources/previews/016/833/872/original/github-logo-git-hub-icon-on-white-background-free-vector.jpg"></img>
-            </a>
-            <a href="https://leetcode.com/u/ThwDog/" target="_blank">
-              <img src="https://miro.medium.com/v2/resize:fit:1020/0*xJCLQQRZv3XFMUd1"></img>
-            </a>
-            <a href="https://www.youtube.com/@td_gd2765/videos" target="_blank">
-              <img src="https://t3.ftcdn.net/jpg/04/74/05/94/360_F_474059464_qldYuzxaUWEwNTtYBJ44VN89ARuFktHW.jpg"></img>
-            </a>
+            <WrapItem>
+              <Tooltip hasArrow  label='GITHUB' bg="0" fontSize='15'  placement='top' color='white' height='15'>
+                  <a href="https://github.com/ThwDog" target="_blank">
+                    <img src="https://avatars.githubusercontent.com/u/93073193?v=4"></img>
+                  </a>
+              </Tooltip>
+              <Tooltip hasArrow  label='LEETCODE' bg="0" fontSize='15'  placement='top' color='white'>
+                  <a href="https://leetcode.com/u/ThwDog/" target="_blank">
+                    <img src="https://miro.medium.com/v2/resize:fit:1020/0*xJCLQQRZv3XFMUd1"></img>
+                  </a>
+              </Tooltip>
+              <Tooltip hasArrow  label='YT' bg="0" fontSize='15'  placement='top' color='white'>
+                <a href="https://www.youtube.com/@td_gd2765/videos" target="_blank">
+                  <img src="https://t3.ftcdn.net/jpg/04/74/05/94/360_F_474059464_qldYuzxaUWEwNTtYBJ44VN89ARuFktHW.jpg"></img>
+                </a>
+              </Tooltip>    
+            </WrapItem>
+            
+            
           </div>
         </div>
       </div>
