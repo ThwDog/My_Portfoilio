@@ -1,14 +1,14 @@
 const data = [{
     status : 'Uni Project',
     name : 'ItsAKnightTimes', // name of project
-    img : 'src/Image/ItAKnightTime.gif', 
+    img : 'Image/ItAKnightTime.gif', 
     dis : '2D Rogue like game Art style pixel', //description
     link : 'https://github.com/ThwDog/GP_ItsAKnightTimes'
 } ,
 {
     status : 'Game jam 2023',
     name : 'MOD_Gam', // name of project
-    img : 'src/Image/MODGame.gif', 
+    img : 'Image/MODGame.gif', 
     dis : '2D platform game', //description
     link : 'https://github.com/ThwDog/Mod_Game'
 } 
