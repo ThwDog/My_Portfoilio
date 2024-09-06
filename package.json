@@ -19,6 +19,8 @@
     "react-github-calendar": "^4.2.2",
     "react-router": "^6.26.1",
     "react-router-dom": "^5.3.4",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
     "typescript": "^5.5.4",
     "vite": "^5.4.2",
     "vite-plugin-env-compatible": "^2.0.1",

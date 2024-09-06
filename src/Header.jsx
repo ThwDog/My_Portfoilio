@@ -4,9 +4,10 @@ import { Box, Tooltip, WrapItem } from '@chakra-ui/react';
 import AboutMe from './section/AboutMe';
 import MyWork from './section/MyWork';
 import Contract from './section/Contract';
+import GitHubCalendar from 'react-github-calendar';
 
 function Header() {
-
+  // ref from other jsx file
   const homeRef = useRef(null);
   const aboutMeRef = useRef(null);
   const myWorkRef = useRef(null);
@@ -44,7 +45,13 @@ function Header() {
             <div>
               <br></br>
               <p> Game Developer</p>
-              <h1>HI , I'm<span> Mean</span> from Thailand</h1>
+              <h1>HI , I'm<span> Mean</span> from Thailand
+              <br/>I'm current study on <span>Game Development</span> and interesting in <span>VFX</span></h1>
+
+              <div className='github-Calender'>
+                  <div className='calender-BG' />
+                  <GitHubCalendar username="thwdog" />
+              </div>
             </div>
           </div>
           <div class="header-bottom-link">
@@ -59,27 +66,31 @@ function Header() {
                     <img src="https://miro.medium.com/v2/resize:fit:1020/0*xJCLQQRZv3XFMUd1"></img>
                   </a>
               </Tooltip>
-              <Tooltip hasArrow  label='YT' bg="0" fontSize='15'  placement='top' color='white'>
+              <Tooltip hasArrow  label='YT01' bg="0" fontSize='15'  placement='top' color='white'>
                 <a href="https://www.youtube.com/@td_gd2765/videos" target="_blank">
                   <img src="https://t3.ftcdn.net/jpg/04/74/05/94/360_F_474059464_qldYuzxaUWEwNTtYBJ44VN89ARuFktHW.jpg"></img>
                 </a>
               </Tooltip>    
-            </WrapItem>
-            
-            
+              <Tooltip hasArrow  label='YT02' bg="0" fontSize='15'  placement='top' color='white'>
+                <a href="https://www.youtube.com/@ThwDog_Work" target="_blank">
+                  <img src="https://t3.ftcdn.net/jpg/04/74/05/94/360_F_474059464_qldYuzxaUWEwNTtYBJ44VN89ARuFktHW.jpg"></img>
+                </a>
+              </Tooltip>  
+            </WrapItem>     
           </div>
         </div>
+        
       </div>
 
-      <section id="about-me" ref={aboutMeRef} style={{height:"1050px"}}>
+      <section id="about-me" ref={aboutMeRef} style={{height:"auto", backgroundColor:"#1E201E"}}>
         <AboutMe />
       </section>
 
-      <section id="my-work" ref={myWorkRef} style={{height:"1050px"}}>
+      <section id="my-work" ref={myWorkRef} style={{height:"auto", backgroundColor:"#1E201E"}}>
         <MyWork />
       </section>
       
-      <section id="contact" ref={contactRef} style={{height:"1050px"}}>
+      <section id="contact" ref={contactRef} style={{height:"auto", backgroundColor:"#1E201E"}}>
         <Contract />
       </section>
       </>

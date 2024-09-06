@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,900;1,900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
-  font: small-caps bold 24px/1 sans-serif;
   box-sizing: border-box;
 }
 html {
@@ -15,9 +16,34 @@ html {
   /* background pic */
   background-size: cover;
   background-position: center;
+  background-color:"#1E201E";
+}
+
+div .github-Calender{
+  z-index: 1;
+  color: white;
+  font: small-caps bold 24px/1 sans-serif;
+  position: absolute;
+  margin-left: 850px;
+  margin-top: 650px;
+}
+div .calender-BG{
+  background: rgba(0, 0, 0, 0.52);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  z-index: -1;
+  position: absolute;
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
 }
 
 .container {
+  font: small-caps bold 24px/1 sans-serif;
+  font-size: large;
   padding: 10px 10%;
 }
 
@@ -71,6 +97,7 @@ nav ul li a:hover::after {
 
 .header-text {
   margin: 30px 0px;
+  font: small-caps bold 24px/1 sans-serif;
   margin-right: 30%;
   font-size: 30px;
   color: #ffffff;
@@ -85,13 +112,14 @@ nav ul li a:hover::after {
   margin-top: 2%;
   margin-left: 2%;
   font-size: 40px;
-  font: 1.2rem "Fira Sans", sans-serif;
+  font: small-caps bold 24px/1 sans-serif;
 }
 
 .header-text h1 span {
   color: rgb(252, 199, 26);
   font-size: 40px;
-  font: 1.2rem "Fira Sans", sans-serif;
+  font: small-caps bold 24px/1 sans-serif;
+
   font-weight: bold;
 }
 

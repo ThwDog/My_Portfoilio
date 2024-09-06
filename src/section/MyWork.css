@@ -1,7 +1,7 @@
 section .mywork
 {
-    width : 100%;
-    height:  100%;
+    width: 100%;
+    height: 100%;
     font: 1.2rem "Fira Sans", sans-serif;
     background-color:#1E201E;
     font-size: 48px;
@@ -10,13 +10,65 @@ section .mywork
 {
     margin: 0 auto;
 }
-div .github-Calender{
-    color: white;
-    background-color: #697565;
+div .slide-Card{
+    margin: auto;
+}
+div .card{
+    width: 170dvh;
+    margin-left: 100px;
+}
+div .card-Inside{
+    
+    height:75dvh;
+    background: rgba(255, 255, 255, 0.199);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     border-radius: 15px;
-    position: absolute;
-    display: block;
-    margin-left: 55%;
-    margin-top: 45%;
-    width: 45%;
+}
+div .card-Img{
+    height:56dvh;
+
+    background: rgba(0, 0, 0, 0.87);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div .card-dis{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 4;
+}
+.card-button{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+img {
+    border-radius: 15px;
+}
+.slick-slide > div{
+    margin: 0 10px;
 }
