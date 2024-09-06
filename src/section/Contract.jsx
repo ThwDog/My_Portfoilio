@@ -2,7 +2,10 @@ import './Contract.css'
 
 function Contract(){
     return(
-        <section class="contact">con</section> 
+        <section class="contact"><br/>
+        Contract
+        
+        </section> 
     );
 }
 

@@ -14,59 +14,86 @@ div .slide-Card{
     margin: auto;
 }
 div .card{
-    width: 170dvh;
-    margin-left: 100px;
+    width: 189dvh;
 }
 div .card-Inside{
-    
-    height:75dvh;
-    background: rgba(255, 255, 255, 0.199);
+    height:70dvh;
+    background: rgba(255, 255, 255, 0.342);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    border-radius: 15px;
+}
+div .card-status{
+    margin-top: 0px;
+
+    text-align: center;
+    font-size: 30px;
+    color: rgba(248, 248, 248, 0.822);    
 }
 div .card-Img{
-    height:56dvh;
+    height: 40dvb;
 
     background: rgba(0, 0, 0, 0.87);
-    border-radius: 16px;
+    border-radius: 15px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    
-    border-radius: 15px 15px 0px 0px;
+
+    margin-top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 div .card-dis{
+    margin-top: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
     row-gap: 4;
 }
+div .card-Name{
+    color: rgba(248, 248, 248, 0.822);    
+    
+    font-size: 40px;
+}
+div .card-disc{
+    text-align: center;
+    margin-top: 10px;
+    color: rgba(248, 248, 248, 0.822);      
+    font-size: 20px;
+}
 .card-button{
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
     flex-direction: column;
 
-    background-color: black;
+    background: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.9px);
+    -webkit-backdrop-filter: blur(10.9px);
+
     border-radius: 20px;
     color: white;
     padding: 15px;
     text-align: center;
     text-decoration: none;
-    
     font-size: 15px;
+}
+.card-button:hover{
+    background: rgba(0, 0, 0, 0.44);
 }
 
 a{
     text-decoration: none;
 }
-img {
+.card-img-in{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 20px;
     border-radius: 15px;
 }
 .slick-slide > div{
