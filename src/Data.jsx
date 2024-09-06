@@ -1,14 +1,17 @@
+import knight from "./Image/ItAKnightTime.gif";
+import mod from "./Image/MODGame.gif";
+
 const data = [{
     status : 'Uni Project',
     name : 'ItsAKnightTimes', // name of project
-    img : 'Image/ItAKnightTime.gif', 
+    img : knight, 
     dis : '2D Rogue like game Art style pixel', //description
     link : 'https://github.com/ThwDog/GP_ItsAKnightTimes'
 } ,
 {
     status : 'Game jam 2023',
     name : 'MOD_Gam', // name of project
-    img : 'Image/MODGame.gif', 
+    img : mod, 
     dis : '2D platform game', //description
     link : 'https://github.com/ThwDog/Mod_Game'
 } 

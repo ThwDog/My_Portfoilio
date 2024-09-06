@@ -3,7 +3,7 @@ import './MyWork.css';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { data } from '../Data.js'
+import { data } from '../Data.jsx'
 
 function Arrow(props) {
     const { className, style, onClick } = props;
